@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "JstgRdMP/e4=",
+  "dgSpecHash": "eHEl6vmZV6w=",
   "success": true,
   "projectFilePath": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\CryptoApi.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\jonas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\jonas\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

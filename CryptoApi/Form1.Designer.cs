@@ -1,39 +1,74 @@
-﻿namespace CryptoApi
+﻿using System;
+using System.Windows.Forms;
+using RestSharp;
+using Newtonsoft.Json;
+
+namespace CryptoApi
 {
-    partial class Form1
+    public partial class Form1 : Form
     {
-        /// <summary>
-        ///  Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        ///  Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
-        {
-            if (disposing && (components != null))
-            {
-                components.Dispose();
-            }
-            base.Dispose(disposing);
-        }
-
-        #region Windows Form Designer generated code
-
-        /// <summary>
-        ///  Required method for Designer support - do not modify
-        ///  the contents of this method with the code editor.
-        /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            txtCoinName = new TextBox();
+            btnGetInfo = new Button();
+            pictureBoxLogo = new PictureBox();
+            lblCoinInfo = new Label();
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
+            SuspendLayout();
+            // 
+            // txtCoinName
+            // 
+            txtCoinName.Location = new Point(20, 20);
+            txtCoinName.Name = "txtCoinName";
+            txtCoinName.Size = new Size(200, 27);
+            txtCoinName.TabIndex = 0;
+            txtCoinName.Text = "bitcoin";
+            // 
+            // btnGetInfo
+            // 
+            btnGetInfo.Location = new Point(230, 20);
+            btnGetInfo.Name = "btnGetInfo";
+            btnGetInfo.Size = new Size(75, 27);
+            btnGetInfo.TabIndex = 1;
+            btnGetInfo.Text = "Získat Info";
+            btnGetInfo.UseVisualStyleBackColor = true;
+            this.btnGetInfo.Click += new System.EventHandler(this.btnGetInfo_Click);
+            // 
+            // pictureBoxLogo
+            // 
+            pictureBoxLogo.Location = new Point(20, 60);
+            pictureBoxLogo.Name = "pictureBoxLogo";
+            pictureBoxLogo.Size = new Size(100, 100);
+            pictureBoxLogo.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBoxLogo.TabIndex = 2;
+            pictureBoxLogo.TabStop = false;
+            // 
+            // lblCoinInfo
+            // 
+            lblCoinInfo.Location = new Point(130, 60);
+            lblCoinInfo.Name = "lblCoinInfo";
+            lblCoinInfo.Size = new Size(300, 100);
+            lblCoinInfo.TabIndex = 3;
+            // 
+            // Form1
+            // 
+            ClientSize = new Size(450, 200);
+            Controls.Add(txtCoinName);
+            Controls.Add(btnGetInfo);
+            Controls.Add(pictureBoxLogo);
+            Controls.Add(lblCoinInfo);
+            Name = "Form1";
+            Text = "CoinGecko API - Crypto Info";
+            ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
-        #endregion
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.Button btnGetInfo;
+        private System.Windows.Forms.TextBox txtCoinName;
+        private System.Windows.Forms.Label lblCoinInfo;
     }
 }
+
