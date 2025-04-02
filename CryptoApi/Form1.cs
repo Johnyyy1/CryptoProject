@@ -29,7 +29,7 @@ public partial class Form1 : Form
                 pictureBoxLogo.Load(coin.Image.Large);
             }
 
-            lblCoinInfo.Text = $"Název: {coin.Name} ({coin.Symbol.ToUpper()})\nCena (USD): {coin.Market_Data.Current_Price["usd"]}";
+            lblCoinInfo.Text = $"Název: {coin.Name} ({coin.Symbol.ToUpper()})\nCena : {coin.Market_Data.Current_Price["usd"]} USD";
         }
         else
         {

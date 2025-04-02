@@ -27,12 +27,14 @@ namespace CryptoApi
             // 
             // btnGetInfo
             // 
+            btnGetInfo.BackColor = SystemColors.Highlight;
+            btnGetInfo.ForeColor = SystemColors.ActiveCaptionText;
             btnGetInfo.Location = new Point(230, 20);
             btnGetInfo.Name = "btnGetInfo";
             btnGetInfo.Size = new Size(75, 27);
             btnGetInfo.TabIndex = 1;
             btnGetInfo.Text = "Získat Info";
-            btnGetInfo.UseVisualStyleBackColor = true;
+            btnGetInfo.UseVisualStyleBackColor = false;
             btnGetInfo.Click += btnGetInfo_Click;
             // 
             // pictureBoxLogo
@@ -46,24 +48,29 @@ namespace CryptoApi
             // 
             // lblCoinInfo
             // 
+            lblCoinInfo.Font = new Font("Segoe UI", 12F);
+            lblCoinInfo.ForeColor = Color.Red;
             lblCoinInfo.Location = new Point(130, 60);
             lblCoinInfo.Name = "lblCoinInfo";
-            lblCoinInfo.Size = new Size(300, 100);
+            lblCoinInfo.Size = new Size(302, 100);
             lblCoinInfo.TabIndex = 3;
             // 
             // Savebtn
             // 
+            Savebtn.BackColor = Color.ForestGreen;
+            Savebtn.ForeColor = SystemColors.ActiveCaptionText;
             Savebtn.Location = new Point(321, 21);
             Savebtn.Name = "Savebtn";
             Savebtn.Size = new Size(73, 26);
             Savebtn.TabIndex = 4;
             Savebtn.Text = "Uložit";
-            Savebtn.UseVisualStyleBackColor = true;
+            Savebtn.UseVisualStyleBackColor = false;
             Savebtn.Click += Savebtn_Click;
             // 
             // Form1
             // 
-            ClientSize = new Size(450, 200);
+            BackColor = Color.Navy;
+            ClientSize = new Size(443, 202);
             Controls.Add(Savebtn);
             Controls.Add(txtCoinName);
             Controls.Add(btnGetInfo);
