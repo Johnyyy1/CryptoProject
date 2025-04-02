@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\",
+  "WorkspaceRootPath": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jonas\\source\\repos\\cryptoapi\\cryptoapi\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jonas\\source\\repos\\cryptoapi\\cryptoapi\\apihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\apihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jonas\\source\\repos\\cryptoapi\\cryptoapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jakub\\documents\\a\\cryptoproject\\cryptoapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jonas\\source\\repos\\cryptoapi\\cryptoapi\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jakub\\documents\\a\\cryptoproject\\cryptoapi\\apihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\apihandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jakub\\documents\\a\\cryptoproject\\cryptoapi\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jonas\\source\\repos\\cryptoapi\\cryptoapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|C:\\Users\\jakub\\Documents\\a\\CryptoProject\\cryptoapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|c:\\users\\jakub\\documents\\a\\cryptoproject\\cryptoapi\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C57E92D-73F4-436B-845E-1592359CDBB1}|CryptoApi\\CryptoApi.csproj|solutionrelative:cryptoapi\\crypto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,42 +30,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Form1.cs [N\u00E1vrh]",
-              "DocumentMoniker": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Form1.cs",
-              "RelativeDocumentMoniker": "CryptoApi\\Form1.cs",
-              "ToolTip": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Form1.cs [N\u00E1vrh]",
-              "RelativeToolTip": "CryptoApi\\Form1.cs [N\u00E1vrh]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T07:25:00.921Z",
-              "EditorCaption": " [N\u00E1vrh]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "CryptoApi\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Form1.Designer.cs",
               "RelativeToolTip": "CryptoApi\\Form1.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwCMAAABUAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAD4v0IAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T07:19:14.473Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Form1.cs",
               "RelativeDocumentMoniker": "CryptoApi\\Form1.cs",
-              "ToolTip": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Form1.cs",
+              "ToolTip": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Form1.cs",
               "RelativeToolTip": "CryptoApi\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAjwDcAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T06:46:31.367Z",
               "EditorCaption": ""
@@ -74,27 +62,39 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ApiHandler.cs",
-              "DocumentMoniker": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\ApiHandler.cs",
+              "DocumentMoniker": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\ApiHandler.cs",
               "RelativeDocumentMoniker": "CryptoApi\\ApiHandler.cs",
-              "ToolTip": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\ApiHandler.cs",
+              "ToolTip": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\ApiHandler.cs",
               "RelativeToolTip": "CryptoApi\\ApiHandler.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwCYAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T06:48:48.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Crypto.cs",
-              "DocumentMoniker": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Crypto.cs",
+              "DocumentMoniker": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Crypto.cs",
               "RelativeDocumentMoniker": "CryptoApi\\Crypto.cs",
-              "ToolTip": "C:\\Users\\jonas\\source\\repos\\CryptoApi\\CryptoApi\\Crypto.cs",
+              "ToolTip": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Crypto.cs",
               "RelativeToolTip": "CryptoApi\\Crypto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-31T06:53:37.048Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [N\u00E1vrh]",
+              "DocumentMoniker": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Form1.cs",
+              "RelativeDocumentMoniker": "CryptoApi\\Form1.cs",
+              "ToolTip": "C:\\Users\\jakub\\Documents\\a\\CryptoProject\\CryptoApi\\Form1.cs [N\u00E1vrh]",
+              "RelativeToolTip": "CryptoApi\\Form1.cs [N\u00E1vrh]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-31T07:25:00.921Z",
+              "EditorCaption": " [N\u00E1vrh]"
             }
           ]
         }

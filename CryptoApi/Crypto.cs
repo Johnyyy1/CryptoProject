@@ -6,6 +6,7 @@ namespace CryptoApi
 {
     public class Crypto
     {
+        //definování dat pro získaní
         public string Id { get; set; }
         public string Symbol { get; set; }
         public string Name { get; set; }

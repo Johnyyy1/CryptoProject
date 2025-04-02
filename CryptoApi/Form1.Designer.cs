@@ -14,6 +14,7 @@ namespace CryptoApi
             btnGetInfo = new Button();
             pictureBoxLogo = new PictureBox();
             lblCoinInfo = new Label();
+            Savebtn = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).BeginInit();
             SuspendLayout();
             // 
@@ -23,7 +24,6 @@ namespace CryptoApi
             txtCoinName.Name = "txtCoinName";
             txtCoinName.Size = new Size(200, 27);
             txtCoinName.TabIndex = 0;
-            txtCoinName.Text = "bitcoin";
             // 
             // btnGetInfo
             // 
@@ -33,7 +33,7 @@ namespace CryptoApi
             btnGetInfo.TabIndex = 1;
             btnGetInfo.Text = "Získat Info";
             btnGetInfo.UseVisualStyleBackColor = true;
-            this.btnGetInfo.Click += new System.EventHandler(this.btnGetInfo_Click);
+            btnGetInfo.Click += btnGetInfo_Click;
             // 
             // pictureBoxLogo
             // 
@@ -51,15 +51,26 @@ namespace CryptoApi
             lblCoinInfo.Size = new Size(300, 100);
             lblCoinInfo.TabIndex = 3;
             // 
+            // Savebtn
+            // 
+            Savebtn.Location = new Point(321, 21);
+            Savebtn.Name = "Savebtn";
+            Savebtn.Size = new Size(73, 26);
+            Savebtn.TabIndex = 4;
+            Savebtn.Text = "Uložit";
+            Savebtn.UseVisualStyleBackColor = true;
+            Savebtn.Click += Savebtn_Click;
+            // 
             // Form1
             // 
             ClientSize = new Size(450, 200);
+            Controls.Add(Savebtn);
             Controls.Add(txtCoinName);
             Controls.Add(btnGetInfo);
             Controls.Add(pictureBoxLogo);
             Controls.Add(lblCoinInfo);
             Name = "Form1";
-            Text = "CoinGecko API - Crypto Info";
+            Text = "CryptoApi";
             ((System.ComponentModel.ISupportInitialize)pictureBoxLogo).EndInit();
             ResumeLayout(false);
             PerformLayout();
@@ -69,6 +80,7 @@ namespace CryptoApi
         private System.Windows.Forms.Button btnGetInfo;
         private System.Windows.Forms.TextBox txtCoinName;
         private System.Windows.Forms.Label lblCoinInfo;
+        private Button Savebtn;
     }
 }
 

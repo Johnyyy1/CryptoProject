@@ -7,6 +7,7 @@ namespace CryptoApi
 {
     public class ApiHandler
     {
+       
         public async Task<Crypto?> GetCrypto(string name)
         {
             try
