@@ -1,12 +1,14 @@
-using System;
-using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using Microsoft.VisualBasic.Logging;
 
 namespace CryptoApi;
 
 public partial class Form1 : Form
 {
-    private string logFilePath = "logs.txt"; //cesta
+    //private string logFilePath = "logs.txt"; cesta
+
+    SaveData saveData = new SaveData();
+    LoadData loadData = new LoadData();
+
     public Form1()
     {
         InitializeComponent();
@@ -38,29 +40,11 @@ public partial class Form1 : Form
     }
     private void LoadLastSearch() //výpis posledního vyhledání po zapnutí
     {
-        if (File.Exists(logFilePath))
-        {
-            string lastLine = File.ReadLines(logFilePath).LastOrDefault(); // Naètení posledního øádku
-            if (!string.IsNullOrEmpty(lastLine))
-            {
-                txtCoinName.Text = lastLine; 
-            }
-        }
-        else
-        {
-            File.Create(logFilePath).Close(); // Vytvoøí souboru
-        }
+        loadData.Load("logs.txt", txtCoinName);
     }
 
     private void Savebtn_Click(object sender, EventArgs e)
     {
-        
-        string searchQuery = txtCoinName.Text;
-        if (!string.IsNullOrEmpty(searchQuery))
-        {
-            MessageBox.Show("Uloženo!");
-            File.AppendAllText(logFilePath, searchQuery + Environment.NewLine); // Uložení
-        }
-
+        saveData.Save("logs.txt", txtCoinName);
     }
 }
